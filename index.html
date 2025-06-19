@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPA File Share - Chia sẻ ứng dụng iOS</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            
+            <div class="logo">
+                <i class="fab fa-apple"></i>
+                <h1>IPA Share</h1>
+            </div>
+            <p class="tagline">Kho ứng dụng ipa miễn phí</p>
+            
+            <!-- Certificate Notice -->
+            <div class="certificate-notice">
+                <p>Nếu chưa có chứng chỉ để tải app hãy truy cập <a href="https://chungchiontop.site" target="_blank">tại đây</a> để mua </p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- Category Navigation -->
+            <section class="category-nav">
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-category="all">
+                        <i class="fas fa-th-large"></i>
+                        <span>Tất cả</span>
+                    </button>
+                    <button class="tab-btn" data-category="apps">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Ứng dụng</span>
+                    </button>
+                    <button class="tab-btn" data-category="games">
+                        <i class="fas fa-gamepad"></i>
+                        <span>Game</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- App Data (Hidden) -->
+            <div id="appData" style="display: none;">
+                <!-- Apps Category -->
+                
+                
+                <div class="app-item" data-category="apps" data-id="1" data-name="Instagram++" data-version="v2.5.1" data-size="85.2 MB" data-added="2024-01-15" data-icon="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" data-description="." data-download-link="https://example.com/download/instagram++.ipa"></div>
+                
+                <div class="app-item" data-category="apps" data-id="1" data-name="Instagram++" data-version="v2.5.1" data-size="85.2 MB" data-added="2024-01-15" data-icon="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" data-description="Instagram với nhiều tính năng nâng cao: tải ảnh/video, xem story ẩn danh, và nhiều tính năng khác." data-download-link="https://example.com/download/instagram++.ipa"></div>
+                
+                <div class="app-item" data-category="apps" data-id="2" data-name="YouTube Premium" data-version="v18.1.2" data-size="127.8 MB" data-added="2024-01-20" data-icon="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" data-description="Xem YouTube không quảng cáo, phát nhạc nền và tải video offline." data-download-link="https://example.com/download/youtube-premium.ipa"></div>
+                
+                <div class="app-item" data-category="apps" data-id="3" data-name="Spotify++" data-version="v8.7.0" data-size="64.5 MB" data-added="2024-01-18" data-icon="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png" data-description="Spotify Premium miễn phí với khả năng bỏ qua quảng cáo và chất lượng cao." data-download-link="https://example.com/download/spotify++.ipa"></div>
+                
+                <div class="app-item" data-category="apps" data-id="4" data-name="TikTok++" data-version="v28.1.0" data-size="195.6 MB" data-added="2024-01-25" data-icon="https://sf-tb-sg.ibytedtos.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon_oval.png" data-description="TikTok với tính năng tải video không watermark và nhiều hiệu ứng độc quyền." data-download-link="https://example.com/download/tiktok++.ipa"></div>
+                
+                <div class="app-item" data-category="apps" data-id="5" data-name="WhatsApp++" data-version="v23.2.1" data-size="98.3 MB" data-added="2024-01-12" data-icon="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2042px-WhatsApp.svg.png" data-description="WhatsApp với tính năng ẩn trạng thái online, đọc tin nhắn mà không hiển thị đã xem." data-download-link="https://example.com/download/whatsapp++.ipa"></div>
+                
+                <div class="app-item" data-category="apps" data-id="6" data-name="Facebook++" data-version="v396.0" data-size="156.7 MB" data-added="2024-01-10" data-icon="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" data-description="Facebook với tính năng tải video, ảnh và nhiều tùy chỉnh giao diện." data-download-link="https://example.com/download/facebook++.ipa"></div>
+                
+                <div class="app-item" data-category="apps" data-id="7" data-name="Netflix++" data-version="v15.2.3" data-size="234.1 MB" data-added="2024-01-22" data-icon="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png" data-description="Netflix với tính năng tải phim không giới hạn và xem offline mà không cần đăng nhập." data-download-link="https://example.com/download/netflix++.ipa"></div>
+                
+                <div class="app-item" data-category="apps" data-id="8" data-name="Discord++" data-version="v126.0" data-size="89.4 MB" data-added="2024-01-14" data-icon="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg" data-description="Discord với tính năng Nitro miễn phí, custom theme và nhiều plugin độc quyền." data-download-link="https://example.com/download/discord++.ipa"></div>
+                
+                <!-- Games Category -->
+                <div class="app-item" data-category="games" data-id="9" data-name="PUBG Mobile++" data-version="v2.9.0" data-size="1.8 GB" data-added="2024-01-28" data-icon="https://cdn2.unrealengine.com/pubg-logo-1200x1200-b7c2c6e1e5a8.png" data-description="PUBG Mobile hack với aimbot, wallhack, speed hack và nhiều cheat khác." data-download-link="https://example.com/download/pubg-mobile++.ipa"></div>
+                
+                <div class="app-item" data-category="games" data-id="10" data-name="Call of Duty Mobile++" data-version="v1.0.34" data-size="2.1 GB" data-added="2024-01-26" data-icon="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/global/meta/mobile-meta-share-image.jpg" data-description="COD Mobile với aimbot, no recoil, radar hack và unlimited ammo." data-download-link="https://example.com/download/cod-mobile++.ipa"></div>
+                
+                <div class="app-item" data-category="games" data-id="11" data-name="Free Fire++" data-version="v1.98.1" data-size="567.8 MB" data-added="2024-01-24" data-icon="https://freefiremobile-a.akamaihd.net/common/web_event/official/image/ff_logo_100.png" data-description="Garena Free Fire hack với auto headshot, speed hack và skin unlocker." data-download-link="https://example.com/download/free-fire++.ipa"></div>
+                
+                <div class="app-item" data-category="games" data-id="12" data-name="Minecraft PE++" data-version="v1.20.51" data-size="234.6 MB" data-added="2024-01-20" data-icon="https://www.minecraft.net/content/dam/games/minecraft/key-art/MC_Trails_and_Tales_keyart_1-1_1080x1080.jpg" data-description="Minecraft Pocket Edition với tất cả skin, texture pack và map miễn phí." data-download-link="https://example.com/download/minecraft-pe++.ipa"></div>
+                
+                <div class="app-item" data-category="games" data-id="13" data-name="Clash of Clans++" data-version="v15.352.4" data-size="145.2 MB" data-added="2024-01-16" data-icon="https://static.wikia.nocookie.net/clashofclans/images/5/5d/App_icon.png" data-description="Clash of Clans với unlimited gems, gold, elixir và fast build." data-download-link="https://example.com/download/clash-of-clans++.ipa"></div>
+                
+                <div class="app-item" data-category="games" data-id="14" data-name="Among Us++" data-version="v2023.11.28" data-size="78.9 MB" data-added="2024-01-13" data-icon="https://www.innersloth.com/wp-content/uploads/2020/09/Among-Us-Logo.png" data-description="Among Us với tất cả pet, skin, hat miễn phí và nhiều hack độc quyền." data-download-link="https://example.com/download/among-us++.ipa"></div>
+                
+                <div class="app-item" data-category="games" data-id="15" data-name="Subway Surfers++" data-version="v3.10.1" data-size="156.4 MB" data-added="2024-01-11" data-icon="https://static.wikia.nocookie.net/subwaysurf/images/1/1e/Subway_Surfers_Icon.png" data-description="Subway Surfers với unlimited coins, keys và tất cả character unlocked." data-download-link="https://example.com/download/subway-surfers++.ipa"></div>
+                
+                <div class="app-item" data-category="games" data-id="16" data-name="Roblox++" data-version="v2.567.418" data-size="289.7 MB" data-added="2024-01-19" data-icon="https://tr.rbxcdn.com/38c6edcb50633730ff4cf39ac8859840/512/512/Image/Png" data-description="Roblox với unlimited Robux, speed hack, jump hack và nhiều exploit khác." data-download-link="https://example.com/download/roblox++.ipa"></div>
+            </div>
+
+            <!-- Files List Section -->
+            <section class="files-section">
+                <div class="section-header">
+                    <h2 id="sectionTitle"><i class="fas fa-mobile-alt"></i> Ứng dụng</h2>
+                    <!-- Search Bar -->
+                    <div class="search-container">
+                        <div class="search-box">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="searchInput" placeholder="Tìm kiếm ứng dụng theo tên...">
+                            <button id="clearSearch" style="display: none;">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="files-grid" id="filesGrid">
+                    <!-- Sample files will be generated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Upload Progress -->
+            <div class="upload-progress" id="uploadProgress" style="display: none;">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <p id="progressText">Đang tải lên...</p>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <button class="contact-btn" id="contactBtn">
+                <i class="fas fa-envelope"></i>
+                <span>Liên hệ</span>
+            </button>
+            <p>&copy; 2025 Nhật Minh. Phát triển cho cộng đồng iOS</p>
+        </footer>
+    </div>
+
+    <!-- Modal for file details -->
+    <div class="modal" id="fileModal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <div class="modal-header">
+                <img id="modalIcon" src="" alt="App Icon">
+                <div>
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalVersion"></p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p id="modalDescription"></p>
+                <div class="modal-actions">
+                    <button class="btn btn-primary" id="downloadBtn">
+                        <i class="fas fa-download"></i> Tải xuống
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div class="modal" id="contactModal">
+        <div class="modal-content contact-modal-content">
+            <span class="close" id="closeContactModal">&times;</span>
+            <div class="contact-modal-header">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h3>Liên hệ với chúng tôi</h3>
+                <p>Chọn phương thức liên hệ phù hợp với bạn</p>
+            </div>
+            <div class="contact-modal-body">
+                <div class="contact-methods">
+                    <a href="https://t.me/ontop2k9" target="_blank" class="contact-method telegram">
+                        <div class="contact-method-icon">
+                            <i class="fab fa-telegram-plane"></i>
+                        </div>
+                        <div class="contact-method-info">
+                            <h4>Telegram</h4>
+                            <p>@ontop2k9</p>
+                        </div>
+                        <i class="fas fa-external-link-alt contact-arrow"></i>
+                    </a>
+                    
+                    <a href="https://m.facebook.com/minh21092k9/" target="_blank" class="contact-method facebook">
+                        <div class="contact-method-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="contact-method-info">
+                            <h4>Facebook</h4>
+                            <p>Cao Nhật Minh</p>
+                        </div>
+                        <i class="fas fa-external-link-alt contact-arrow"></i>
+                    </a>
+                </div>
+                
+                <div class="contact-footer">
+                    <p><i class="fas fa-clock"></i> Thời gian hỗ trợ: 8:00 - 22:00 (GMT+7)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
