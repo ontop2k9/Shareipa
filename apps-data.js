@@ -1,6 +1,17 @@
 
 // Dữ liệu các ứng dụng
 const appsData = [
+    {
+    "id": 1,
+    "name": "Minecraft",
+    "version": "v1.21",
+    "size": "991 MB",
+    "category": "games",
+    "description": "Game xây dựng và sáng tạo",
+    "icon": "https://i.ibb.co/cKt4jY68/98713eae6a72.jpg",
+    "addedDate": new Date("2025-06-22"),
+    "downloadLink": "https://tinyurl.com/yc3br7v3"
+},
     
     {
         id: 1,
