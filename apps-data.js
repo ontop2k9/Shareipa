@@ -3,6 +3,17 @@
 const appsData = [
     {
     "id": 1,
+    "name": "Promova Language",
+    "version": "v1.0",
+    "size": "116 MB",
+    "category": "apps",
+    "description": "Mở khoá Premium",
+    "icon": "https://i.ibb.co/CsJPKfw9/6b74a357c473.jpg",
+    "addedDate": new Date("2025-06-22"),
+    "downloadLink": "https://tinyurl.com/t32vebwj"
+},
+    {
+    "id": 1,
     "name": "Minecraft",
     "version": "v1.21",
     "size": "991 MB",
