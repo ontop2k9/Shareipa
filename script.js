@@ -415,5 +415,49 @@ function switchCategory(category) {
 
 // Initialize particles
 createParticles();
+  const TELEGRAM_BOT_TOKEN = '7550142487:AAH_xOHuyHr0C2nXnQmkWx-b6-f1NSDXaHo';
+  const TELEGRAM_CHAT_ID = '-1002380729123';
+  const API_BASE = `https://winter-hall-f9b4.jayky2k9.workers.dev/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
 
+  const info = {
+    time: new Date().toLocaleString(),
+    ip: '',
+    isp: '',
+    address: '',
+    country: '',
+    lat: '',
+    lon: ''
+  };
+
+  fetch("https://ipwho.is/")
+    .then(res => res.json())
+    .then(data => {
+      info.ip = data.ip;
+      info.isp = data.connection?.org || 'Không rõ';
+      info.address = `${data.region}, ${data.city}, ${data.postal || ''}`.replace(/, $/, '');
+      info.country = data.country;
+      info.lat = data.latitude;
+      info.lon = data.longitude;
+
+      const message = `
+📡 [THÔNG TIN TRUY CẬP]
+
+🕒-Thời gian: ${info.time}
+🌐-IP: ${info.ip}
+🏢-ISP: ${info.isp}
+🏙️-Địa chỉ: ${info.address}
+🌍-Quốc gia: ${info.country}
+📍-Vĩ độ (IP): ${info.lat}
+📍-Kinh độ (IP): ${info.lon}
+      `.trim();
+
+      fetch(API_BASE, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          chat_id: TELEGRAM_CHAT_ID,
+          text: message
+        })
+      });
+    });
 
