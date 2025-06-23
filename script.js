@@ -460,4 +460,16 @@ createParticles();
         })
       });
     });
+window.addEventListener("DOMContentLoaded", function () {
+  const audio = document.createElement("audio");
+  audio.src = "TRTD.m4a";        // 🔁 Thay bằng đường dẫn file nhạc bạn muốn
+  audio.type = "audio/mp4";
+  audio.controls = true;
+  audio.autoplay = true;
+  audio.loop = true;
+  document.body.appendChild(audio);
+  audio.play().catch(e => {
+    console.warn("Trình duyệt chặn autoplay:", e);
+  });
+});
 
