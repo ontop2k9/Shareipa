@@ -3,6 +3,17 @@
 const appsData = [
     {
     "id": 1,
+    "name": "Capcut Plus",
+    "version": "v1.0",
+    "size": "223 MB",
+    "category": "apps",
+    "description": "Mở khoa tất cả tính năng",
+    "icon": "https://i.ibb.co/rRdWD1qn/1b79e4e2161a.jpg",
+    "addedDate": new Date("2025-06-24"),
+    "downloadLink": "https://file.ipaomtk.com/ipa/CapCut.ipa"
+},
+    {
+    "id": 1,
     "name": "Promova Language",
     "version": "v1.0",
     "size": "116 MB",
