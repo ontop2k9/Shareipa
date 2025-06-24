@@ -4,7 +4,7 @@ let sampleApps = [];
 
 function loadAppsFromData() {
     // Kết hợp dữ liệu từ apps-data.js và games-data.js
-    sampleApps = [...appsData, ...gamesData];
+    sampleApps = [...appsData,];
 }
 
 // Current active category
