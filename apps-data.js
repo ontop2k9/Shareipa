@@ -21,7 +21,7 @@ const appsData = [
     "description": "Mở khoá Premium",
     "icon": "https://i.ibb.co/CsJPKfw9/6b74a357c473.jpg",
     "addedDate": new Date("2025-06-22"),
-    "downloadLink": "https://tinyurl.com/t32vebwj"
+    "downloadLink": "https://drive.google.com/file/d/1Psjyo2EUx_8HiR-AFl5IEf7KYHmsX4iF/view?usp=share_link"
 },
     {
     "id": 1,
@@ -44,18 +44,7 @@ const appsData = [
         description: "Mở khoá tất cả",
         icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/30/fe/9830fe61-e324-9a53-2528-e879de945f4c/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/512x512bb.jpg",
         addedDate: new Date("2025-06-22"),
-        downloadLink: "https://tinyurl.com/mtdws93w"
-    },
-    {
-        id: 2,
-        name: "Adobe Fresco",
-        version: "v1.0",
-        size: "779 MB",
-        category: "apps",
-        description: "Nhấn mua Pro sau đó huỷ",
-        icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/f8/75/9df87552-f978-7069-a8a2-45b9e35f5fba/AppIcon-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.jpg",
-        addedDate: new Date("2025-06-22"),
-        downloadLink: "https://tinyurl.com/38a4zjp5"
+        downloadLink: "https://drive.google.com/file/d/1y6Q_Xg65236FlJ1CS-rl5jl_QQR-C-Fx/view?usp=share_link"
     },
     {
         id: 3,
@@ -66,95 +55,7 @@ const appsData = [
         description: "Mở khoá nhiều tính năng",
         icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/79/cc/4779cc74-9993-9b30-d7d1-7a61e74a7465/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
         addedDate: new Date("2025-06-22"),
-        downloadLink: "https://tinyurl.com/4kxa2cn5"
-    },
-    {
-        id: 4,
-        name: "iScreen Widgets",
-        version: "v1.0",
-        size: "477 MB",
-        category: "apps",
-        description: "Mở khoá nhiều tính năng",
-        icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/7a/f9/217af9c9-8e92-fe00-c2ac-96dfa9128334/AppIcon-0-0-1x_U007epad-0-0-0-8-0-0-sRGB-85-220.jpeg/512x512bb.jpg",
-        addedDate: new Date("2025-06-22"),
-        downloadLink: "https://tinyurl.com/bdea7a7j"
-    },
-    {
-        id: 5,
-        name: "Pinterest",
-        version: "v1.0",
-        size: "227 MB",
-        category: "apps",
-        description: "Xoá quảng cáo",
-        icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/a5/36/bfa536f2-5fc6-67aa-d5bd-d7bd83ef0aba/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
-        addedDate: new Date("2025-06-22"),
-        downloadLink: "https://tinyurl.com/yepnjwx5"
-    },
-    {
-        id: 6,
-        name: "Reface",
-        version: "v1.0",
-        size: "192 MB",
-        category: "apps",
-        description: "Không cần đăng nhập,Mở khóa pro",
-        icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/25/d9/6625d9e5-a88e-2e70-fd09-5b838a1bc286/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-        addedDate: new Date("2025-06-22"),
-        downloadLink: "https://tinyurl.com/556cs674"
-    },
-    {
-        id: 7,
-        name: "Bilibili",
-        version: "v1.0",
-        size: "444 MB",
-        category: "apps",
-        description: "Mở khóa rộng nhiều tính năng",
-        icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/03/8f/d3038f36-0696-c504-9bbe-b9ba07f2c9fb/AppIcon-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg",
-        addedDate: new Date("2025-06-22"),
-        downloadLink: "https://tinyurl.com/bdfr8rm9"
-    },
-    {
-        id: 8,
-        name: "Picsart",
-        version: "v1.0",
-        size: "225 MB",
-        category: "apps",
-        description: "Mở khóa nhiều tính năng",
-        icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/78/24/6e782475-fd84-d201-eb29-a0825676835b/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg",
-        addedDate: new Date("2025-06-22"),
-        downloadLink: "https://tinyurl.com/y6uxtzs5"
-    },
-    {
-        id: 9,
-        name: "Telegram Mod",
-        version: "v1.0",
-        size: "149 MB",
-        category: "apps",
-        description: "Menu Plugin hỗ trợ ( Bấm vào icon KETA để kích hoạt ),Nhân bản không giới hạn,Fix trùng data,Hạn chế quét tài khoản,Fix Crash,Fix Signon",
-        icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/f9/a4/15f9a4ec-71a6-732a-65ef-89dd9b69b8cf/AppIconLLC-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
-        addedDate: new Date("2025-06-20"),
-        downloadLink: "https://tinyurl.com/bv6yru63"
-    },
-    {
-        id: 10,
-        name: "Shadowrocket",
-        version: "v1.0",
-        size: "46 MB",
-        category: "apps",
-        description: "Mở khóa một số tính năng",
-        icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/37/1d/d1371d3f-81b1-96ea-d335-e88199bb96b8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-        addedDate: new Date("2025-06-20"),
-        downloadLink: "https://tinyurl.com/ydvyxhzv"
-    },
-    {
-        id: 11,
-        name: "SnapEdit",
-        version: "v1.0",
-        size: "169 MB",
-        category: "apps",
-        description: "Tính năng cao cấp mở khóa",
-        icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/a5/cd/93a5cd19-eafe-9f92-3d58-c06800e0673c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
-        addedDate: new Date("2025-06-20"),
-        downloadLink: "https://tinyurl.com/yuu4kwx5"
+        downloadLink: "https://drive.google.com/file/d/1amy2cqTmJ84i-uiWzYFBd1Lp1t1ryZ0X/view?usp=share_link"
     },
     {
         id: 12,
@@ -165,29 +66,7 @@ const appsData = [
         description: "Truyền phát nhạc,Xóa quảng cáo,Xóa danh sách phát được quảng cáo,Loại bỏ các nút Upsell",
         icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/ea/fa/37eafabd-3bd8-0d17-3b37-9dce13924079/AppIcon-0-0-1x_U007epad-0-0-85-220.png/512x512bb.jpg",
         addedDate: new Date("2025-06-20"),
-        downloadLink: "https://tinyurl.com/bdcubk2y"
-    },
-    {
-        id: 13,
-        name: "Wink",
-        version: "1.0",
-        size: "214 MB",
-        category: "apps",
-        description: "Mở khóa VIP,Xoá quảng cáo",
-        icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/d9/eb/a3d9eb83-980d-22a9-6163-18ad34b81f87/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        addedDate: new Date("2025-06-20"),
-        downloadLink: "https://tinyurl.com/33bxepa7"
-    },
-    {
-        id: 14,
-        name: "Meitu",
-        version: "1.0",
-        size: "566 MB",
-        category: "apps",
-        description: "Mở khóa một số tính năng không cần đăng nhập",
-        icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/d2/67/a9d2679e-1611-bdc5-ffcd-0663311447af/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg",
-        addedDate: new Date("2025-06-20"),
-        downloadLink: "https://tinyurl.com/mr7ppsur"
+        downloadLink: "https://drive.google.com/file/d/1cEeWtAe4Qb4fc1RLv510x9SuaQwkXfb4/view?usp=share_link"
     },
     {
         id: 15,
